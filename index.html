@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StoryToys Clone</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap JS Bundle -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="/src/main.ts"></script>
+
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+
+<body>
+
+  <!-- Top Color Bar -->
+  <div class="top-bar"></div>
+
+  <!-- Navbar with Collapse -->
+  <nav class="navbar navbar-expand-md main-navbar px-3 px-md-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="StoryToys Logo" class="logo" />
+      </a>
+
+      <!-- Mobile toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible menu -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark">Support</a></li>
+          <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark">Careers</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link fw-bold text-dark d-flex align-items-center">
+              Apps <span class="ms-1">⭐</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Full-width Hero Image -->
+  <div class="hero-image-wrapper">
+    <img src="/happy childrens learning at classroom illustration book children.jpg" alt="Peppa Pig Banner"
+      class="img-fluid w-100 d-block" />
+  </div>
+
+  <!-- Hero Text Section -->
+  <section class="hero-text text-center py-5">
+    <div class="container">
+      <h2 class="fw-bold text-primary fs-3 fs-md-2">
+        Apps to help your child learn, play, and grow
+      </h2>
+      <p class="mt-3 text-dark fs-6">
+        They’ll have fun with characters they love, and you’ll rest easy knowing all our apps nurture their curiosity
+        and creativity.
+        <br><br>
+        Start having fun now with our top picks.
+      </p>
+    </div>
+  </section>
+  <!-- Display 4 apps cards -->
+  <section class="container-fluid">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-3 fade-in">
+          <div class="card h-100">
+            <img src="assets/app1.jpg" class="card-img-top" alt="App 1" />
+            <div class="card-body">
+              <h5 class="card-title">App 1</h5>
+              <p class="card-text">Description of App 1.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 fade-in">
+          <div class="card h-100">
+            <img src="assets/app2.jpg" class="card-img-top" alt="App 2" />
+            <div class="card-body">
+              <h5 class="card-title">App 2</h5>
+              <p class="card-text">Description of App 2.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 fade-in">
+          <div class="card h-100 ">
+            <img src="assets/app3.jpg" class="card-img-top" alt="App 3" />
+            <div class="card-body">
+              <h5 class="card-title">App 3</h5>
+              <p class="card-text">Description of App 3.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="assets/app4.jpg" class="card-img-top" alt="App 4" />
+            <div class="card-body">
+              <h5 class="card-title">App 4</h5>
+              <p class="card-text">Description of App 4.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid py-5">
+    <div class="row w-100">
+      <div class="col-md">
+        <img src="/happy childrens learning at classroom illustration book children.jpg" class="w-100" alt="">
+      </div>
+      <div class="col-md">
+        Your kids are restless and you could do with 5 minutes to yourself, but you want to give them constructive
+        screen time that still feels like a treat.
+
+        That’s why we make apps for kids that engage them in well-rounded activities designed to nurture them and help
+        them grow. You’ll get peace of mind seeing your kids learn and have fun at the same time.
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer text-center py-4">
+    <div class="container">
+      <p class="mb-0">© 2023 StoryToys. All rights reserved.</p>
+      <p class="mb-0">Privacy Policy | Terms of Service</p>
+    </div>
+
+</body>
+
+</html>
