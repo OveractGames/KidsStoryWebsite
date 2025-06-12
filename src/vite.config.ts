@@ -1,6 +1,5 @@
-// vite.config.ts
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/KidsStoryWebsite/', // 👈 must match GitHub repo name exactly
+    base: '/KidsStoryWebsite/docs/', // 👈 include `/docs` because you're deploying there
 });
