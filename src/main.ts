@@ -1,7 +1,4 @@
 import $ from 'jquery';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
-
 
 export class Main {
   constructor() {
