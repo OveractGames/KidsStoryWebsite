@@ -15,8 +15,6 @@ body {
 .main-navbar {
   padding-top: 2.5rem;
   font-size: 1.5rem;
-
-  font-weight: 600;
   display: flex;
   justify-content: center;
 }
@@ -25,6 +23,23 @@ body {
   height: 60px;
   width: auto;
 }
+
+.card {
+  overflow: hidden;
+  /* ⛔️ prevents image from spilling outside */
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+  /* 🔍 zoom effect */
+  cursor: pointer;
+  /* 🖱️ pointer on hover */
+}
+
 
 .top-bar {
   background-color: #1d428a;
