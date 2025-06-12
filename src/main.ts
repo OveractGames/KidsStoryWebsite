@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import './style.css'; // Assuming you have a styles.css file for your styles
 
 export class Main {
   constructor() {
