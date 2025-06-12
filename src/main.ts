@@ -9,7 +9,7 @@ export class Main {
     console.log("Main class initialized");
 
     $('.card-game').on('click', () => {
-      console.log('🖼️ Image clicked via jQuery!');
+      console.log('Image clicked via jQuery!');
     });
   }
 }
