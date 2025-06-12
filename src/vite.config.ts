@@ -2,5 +2,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/KidsStoryWebsite/', // 👈 your GitHub repo name here
+    base: '/KidsStoryWebsite/', // 👈 must match GitHub repo name exactly
 });
