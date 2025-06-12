@@ -11,6 +11,7 @@ export class Main {
     $('.card-game').on('click', () => {
       console.log('Image clicked via jQuery!');
     });
+
   }
 }
 export default new Main;
