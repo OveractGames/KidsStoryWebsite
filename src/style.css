@@ -19,6 +19,61 @@ body {
   justify-content: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Adds horizontal space between nav items */
+.navbar-nav .nav-item {
+  margin-left: 1rem;
+  /* Adjust spacing here */
+}
+
+.navbar-nav .nav-item:first-child {
+  margin-left: 0;
+}
+
+/* Adds underline on hover */
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  /* Optional: adds spacing between text and underline */
+}
+
+.container {
+  max-width: 100%;
+}
+
+footer i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+footer {
+  background: #173e72 !important;
+}
+
+footer a.border {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px !important;
+  border-color: #fff !important;
+}
+
+
+
 .logo {
   max-height: 70px;
   height: auto;
