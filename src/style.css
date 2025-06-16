@@ -2,7 +2,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Benton Sans', sans-serif;
+}
+
+.text-primary {
+  color: #00bcd4 !important; /* Soft blue like the quotes */
 }
 
 /* Top color strip */
@@ -41,10 +45,28 @@ img {
   transition: color 0.2s;
 }
 
-.navbar-nav .nav-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  /* Optional: adds spacing between text and underline */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #003366; /* or your preferred underline color */
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .container {
